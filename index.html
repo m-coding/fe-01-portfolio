@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Mosaic Travel</title>     
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tillana:700%7COswald%7CFira+Sans">    
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/bootstrap-dialog.min.css">
+      <link rel="stylesheet" href="css/camera.css">
+      <link rel="stylesheet" href="css/styles.css">
+   </head>
+   <body>
+   	<div class="container">   		
+   		<header class="row">
+   			<div class="col-md-4">
+   				<img class="logo" src="images/logo.png" alt="Udacity Logo">
+   			</div>
+   			<div class="col-md-8 text-uppercase text-right">
+   				<h1>Mosaic Travel</h1>
+   				<h4>Your destination awaits</h4>
+   			</div>
+   		</header>
+   		<div class="row">
+   			<div class="col-md-12"><hr></div>
+   		</div>   		
+   		<aside class="row">
+   			<figure class="col-md-12">
+          <div class="camera_wrap camera_azure_skin" id="camera_wrap_1">
+            <div data-src="images/cape-town-slide-md.jpg">
+              <div class="camera_caption">“Adventure is worthwhile.” – Aesop</div>
+            </div>
+            <div data-src="images/london-slide-md.jpg">
+              <div class="camera_caption">“Not all those who wander are lost.” – J.R.R. Tolkien</div>
+            </div>
+            <div data-src="images/new-york-city-slide-md.jpg">
+              <div class="camera_caption">“The traveler sees what he sees, the tourist sees what he has come to see.” – Gilbert K. Chesterton</div>
+            </div>
+            <div data-src="images/tokyo-slide-md.jpg">
+              <div class="camera_caption">“Every day is a journey, and the journey itself is home.” – Matsuo Basho</div>
+            </div>
+         </div>
+   			</figure>
+   		</aside>
+   		<section class="row">
+   			<header class="col-md-12">
+   				<h2>Featured Destinations</h2>
+   			</header>
+   		</section>
+			<section class="row text-center">
+				<figure class="col-md-3">					
+					<img class="img-responsive highlight enableDialog" src="images/cape-town-md.jpg" alt="Cape Town" data-city="CapeTown" srcset="images/cape-town-sm.jpg 142w, images/cape-town-md.jpg 284w, images/cape-town-lg.jpg 568w" sizes="100vw">
+					<h3 class="text-uppercase">Cape Town</h3>
+					<p><a href="http://www.capetown.travel/">http://www.capetown.travel/</a></p>
+					<figcaption id="CapeTown" class="hidden">Cape Town is a port city on South Africa's southwest coast, on a peninsula beneath the imposing Table Mountain. Slowly rotating cable cars climb to the mountain’s flat top, from which there are sweeping views of the city, the busy harbor and boats heading for Robben Island in Table Bay. The notorious prison that once held Nelson Mandela is now a living museum.</figcaption>
+				</figure>
+				<figure class="col-md-3">
+					<img class="img-responsive highlight enableDialog" src="images/london-md.jpg" alt="London" data-city="London" srcset="images/london-sm.jpg 142w, images/london-md.jpg 284w, images/london-lg.jpg 568w" sizes="100vw">
+					<h3 class="text-uppercase">London</h3>
+					<p><a href="http://www.visitlondon.com/">http://www.visitlondon.com/</a></p>
+					<figcaption id="London" class="hidden">London, England's capital, set on the River Thames, is a 21st-century city with history stretching back to Roman times. At its centre stand the imposing Houses of Parliament, the iconic 'Big Ben' clock tower and Westminster Abbey, site of British monarch coronations. Across the Thames, the London Eye observation wheel provides panoramic views of the South Bank cultural complex, and the entire city.</figcaption>
+				</figure>
+				<figure class="col-md-3">
+					<img class="img-responsive highlight enableDialog" src="images/new-york-city-md.jpg" alt="New York City" data-city="NewYorkCity" srcset="images/new-york-city-sm.jpg 142w, images/new-york-city-md.jpg 284w, images/new-york-city-lg.jpg 568w" sizes="100vw">
+					<h3 class="text-uppercase">New York City</h3>
+					<p><a href="http://www.nycgo.com/">http://www.nycgo.com/</a></p>
+					<figcaption id="NewYorkCity" class="hidden">Home to the Empire State Building, Times Square, Statue of Liberty and other iconic sites, New York City is a fast-paced, globally influential center of art, culture, fashion and finance. The city's 5 boroughs sit where the Hudson River meets the Atlantic Ocean, with the island borough of Manhattan at the "Big Apple's" core.</figcaption>
+				</figure>
+				<figure class="col-md-3">
+					<img class="img-responsive highlight enableDialog" src="images/tokyo-md.jpg" alt="Tokyo" data-city="Tokyo" srcset="images/tokyo-sm.jpg 142w, images/tokyo-md.jpg 284w, images/tokyo-lg.jpg 568w" sizes="100vw">
+					<h3 class="text-uppercase">Tokyo</h3>
+					<p><a href="https://www.gotokyo.org/en/">https://www.gotokyo.org/en/</a></p>
+					<figcaption id="Tokyo" class="hidden">Tokyo, Japan's bustling capital, mixes the ultramodern and the traditional, from neon-lit skyscrapers and anime shops to cherry trees and temples. The opulent Meiji Shinto Shrine is known for its towering gate and surrounding forests. The Imperial Palace sits amid sprawling public gardens. The city is famed for its vibrant food scene, and its Shibuya and Harajuku districts are the heart of its trendy teen fashion scene.</figcaption>
+				</figure>
+			</section>
+   	</div>
+
+    <!-- scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+   </body>
+</html>

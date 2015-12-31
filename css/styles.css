@@ -1,0 +1,55 @@
+body {
+	color: #63666a;
+	font-family: "Fira Sans", Candara, Tahoma, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	font-size: 64px;
+}
+
+h1, h2 { 
+	color: #000;
+	font-family: Tillana, Candara, Tahoma, Arial, Helvetica, sans-serif;
+	font-weight: 700;
+}	
+
+h2 {
+	color: #202020;
+}
+
+h3 {
+	color: #333;
+	font-family: Oswald, Candara, Tahoma, Arial, Helvetica, sans-serif;
+}
+
+h4 {
+	font-size: 24px;
+}
+
+hr {
+	width: 100%;
+	height: 3px;
+	background-color: #ccc;
+}
+
+.modal-open .bootstrap-dialog .modal-header {
+	background-color: #ccc;
+}
+
+.modal-open .bootstrap-dialog .bootstrap-dialog-title {
+	color: #333;
+	font-size: 24px;
+}
+
+.modal-open .bootstrap-dialog .msg {
+	margin: 14px 0 0 0;
+}
+
+.highlight:hover {
+	opacity: 0.6;	
+	cursor: pointer;
+}
+
+.logo {
+	margin: 16px 0 0 0;
+}
