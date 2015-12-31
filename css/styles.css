@@ -7,11 +7,12 @@ h1 {
 	font-size: 64px;
 }
 
-h1, h2 { 
+h1,
+h2 {
 	color: #000;
 	font-family: Tillana, Candara, Tahoma, Arial, Helvetica, sans-serif;
 	font-weight: 700;
-}	
+}
 
 h2 {
 	color: #202020;
@@ -46,7 +47,7 @@ hr {
 }
 
 .highlight:hover {
-	opacity: 0.6;	
+	opacity: 0.6;
 	cursor: pointer;
 }
 
