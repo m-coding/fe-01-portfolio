@@ -1,4 +1,4 @@
-##Mock Travel Page
+##Mock Travel Landing Page
 
 ###Features
 
@@ -14,14 +14,3 @@
   * Third-party Bootstrap dialog shown when thumbnails are clicked
 4. Custom fonts
   * Uses Google Fonts
-
-###Screenshots
-
-####Desktop View
-* TODO: add screenshot from desktop
-
-####Mobile View
-* TODO: add screenshot from mobile phone
-
-####Demo
-* TODO: create animated gif of page shrinking/expanding
